@@ -4,7 +4,7 @@ Collection de notebooks Jupyter sur le nettoyage de données avec Python.
 
 ---
 
-## 📚 Contenu
+## Contenu
 
 ### TP1 - Découverte et Valeurs Manquantes Simples
 **Difficulté:** Débutant  
@@ -18,7 +18,7 @@ Collection de notebooks Jupyter sur le nettoyage de données avec Python.
 
 ---
 
-## 📊 TP1 - Valeurs Manquantes
+## TP1 - Valeurs Manquantes
 
 ### Concepts abordés
 
@@ -75,7 +75,7 @@ for col in categorical_cols:
 
 ---
 
-## 🔄 TP2 - Doublons et Standardisation
+## TP2 - Doublons et Standardisation
 
 ### Concepts abordés
 
@@ -145,7 +145,7 @@ df['phone'] = df['phone'].apply(clean_phone)
 
 ---
 
-## 🛠️ Technologies utilisées
+## Technologies utilisées
 
 - **Python** 3.12
 - **pandas** : Manipulation de données
@@ -157,7 +157,7 @@ df['phone'] = df['phone'].apply(clean_phone)
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 pip install pandas numpy matplotlib seaborn missingno scipy
@@ -171,7 +171,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Utilisation
+## Utilisation
 
 1. Cloner le repository
 ```bash
@@ -191,7 +191,7 @@ jupyter notebook TP1_Data_Cleansing_COMPLETED.ipynb
 
 ---
 
-## 📝 Structure des notebooks
+## Structure des notebooks
 
 Chaque TP suit une structure cohérente :
 
@@ -204,31 +204,24 @@ Chaque TP suit une structure cohérente :
 
 ---
 
-## 🎯 Compétences développées
+## Compétences développées
 
 ### TP1
-- ✅ Détection et analyse des valeurs manquantes
-- ✅ Choix de stratégies d'imputation appropriées
-- ✅ Utilisation de médianes et modes
-- ✅ Manipulation de DataFrames pandas
-- ✅ Visualisation de données
+- Détection et analyse des valeurs manquantes
+- Choix de stratégies d'imputation appropriées
+- Utilisation de médianes et modes
+- Manipulation de DataFrames pandas
+- Visualisation de données
 
 ### TP2
-- ✅ Détection de doublons
-- ✅ Déduplication de données
-- ✅ Standardisation de formats
-- ✅ Nettoyage de chaînes de caractères
-- ✅ Mapping de catégories
-- ✅ Expressions régulières (regex)
+- Détection de doublons
+- Déduplication de données
+- Standardisation de formats
+- Nettoyage de chaînes de caractères
+- Mapping de catégories
+- Expressions régulières (regex)
 
 ---
-
-## 📖 Ressources
-
-### Documentation
-- [pandas Documentation](https://pandas.pydata.org/docs/)
-- [missingno Documentation](https://github.com/ResidentMario/missingno)
-- [Guide de nettoyage de données](https://www.kaggle.com/learn/data-cleaning)
 
 ### Concepts clés
 
@@ -248,62 +241,3 @@ Chaque TP suit une structure cohérente :
 - Analyser le pattern de missingness avant de décider
 
 ---
-
-## ⚠️ Remarques importantes
-
-### Bonnes pratiques
-- Toujours travailler sur une copie du dataset : `df_clean = df.copy()`
-- Documenter chaque transformation
-- Vérifier les résultats après chaque étape
-- Créer un rapport de nettoyage
-
-### Erreurs courantes à éviter
-- ❌ Oublier `inplace=True` ou réassigner : `df['col'] = df['col'].fillna(value)`
-- ❌ Ne pas vérifier le type de données avant imputation
-- ❌ Utiliser `.mean()` au lieu de `.median()` pour données avec outliers
-- ❌ Oublier `[0]` pour `.mode()` : `mode_value = df['col'].mode()[0]`
-
----
-
-## 👤 Auteur
-
-Travaux réalisés dans le cadre d'un cours de Data Science et Machine Learning.
-
----
-
-## 📅 Date
-
-Janvier 2026
-
----
-
-## 🔜 Prochains TP
-
-- **TP3** : Détection et traitement des outliers (IQR, Z-score)
-- **TP4** : Validation et cohérence des données
-- **TP5** : Imputation avancée (KNN, MICE)
-- **TP6** : Encodage et Feature Engineering
-- **TP7** : Normalisation et Pipeline Sklearn
-- **TP8** : Détection de doublons flous (Fuzzy Matching)
-- **TP9** : Pipeline automatisé de bout en bout
-
----
-
-## 📊 Statistiques
-
-- **Notebooks complétés** : 2/9
-- **Concepts maîtrisés** : Valeurs manquantes, Doublons, Standardisation
-- **Lignes de code** : ~500+
-- **Datasets nettoyés** : 2
-
----
-
-## 🤝 Contribution
-
-Ce projet est à usage éducatif. Les suggestions d'amélioration sont les bienvenues !
-
----
-
-## 📄 Licence
-
-Usage académique uniquement.
