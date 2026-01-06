@@ -1,0 +1,22 @@
+# Requirements for Data Cleansing TP1-TP2
+# Python 3.12+
+
+# Core Data Science Libraries
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+missingno>=0.5.2
+
+# Scientific Computing
+scipy>=1.10.0
+
+# Jupyter
+jupyter>=1.0.0
+notebook>=7.0.0
+ipykernel>=6.25.0
+
+# Optional but recommended
+jupyterlab>=4.0.0
